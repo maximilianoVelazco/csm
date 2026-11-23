@@ -15,6 +15,10 @@
     height: 100%;
 }
 
+.titulo-hero{
+    align-self: flex-start;
+}
+
 .titulo-hero >h2 {
     font-size: clamp(3.75rem, 2.5rem + 6.25vw, 9rem);
     line-height: 1;
