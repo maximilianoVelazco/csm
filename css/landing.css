@@ -48,3 +48,13 @@
 .borde{
     border: 1px dotted yellow;
 }
+
+
+@media screen and (min-width: 992px) {
+
+    .contenido-hero > .row{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
