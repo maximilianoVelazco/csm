@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>csm.</title>
+
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/grid-banner.css">
+</head>
+<body>
+    
+    <header class="navbar md:navbar-expand">
+        <nav class="lg:container">
+            <a class="navbar-brand csm" href="#">CSM.</a>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarLeftDrawer" aria-controls="navbarLeftDrawer" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon toggler-color" aria-hidden="true"></span>
+            </button>
+            <dialog class="drawer drawer-start" tabindex="-1" id="navbarLeftDrawer" aria-labelledby="navbarLeftDrawerLabel">
+                <div class="drawer-header">
+                    <h5 class="drawer-title" id="navbarLeftDrawerLabel">CSM.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                </div>
+                <div class="drawer-body">
+                    <ul class="navbar-nav align-items-center justify-content-start fs-lg">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Agenda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Articulos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://wa.me/1166186979?text=¡Estoy+interesado!" target="_blank">Contacto</a></li>
+                        <li class="nav-item container justify-content-center boton-nav"><a class="nav-link" href="#">Ingresar</a></li>
+                    </ul>
+                </div>
+            </dialog>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="container-fluid hero">
+            <div class="container-fluid capa-sombra">
+                <div class="lg:container contenido-hero">
+                    <div class="row align-items-center">
+                        <div class="col-12 md:col-9 gx-0 titulo-hero text-center md:text-start">
+                            <h2 class="t-beige fs-6xl">ORGANIZÁ LA BRONCA</h2>
+                        </div>
+                        <div class="col-12 md:col-6 gx-0 unite text-center md:text-start">
+                            <h4 class="t-beige fs-2xl">Unite a un espacio de organización, participación y debate político en San Miguel.</h4>
+                            <!-- <p class="fs-lg t-beige">ladumistööstuses. aastatest, mil tundmatu printija võttis hulga suvalist teksti, et teha trükinäidist. Lorem Ipsum ei ole ainult vii</p> -->
+                            <a class="boton-dark" href="https://comunidaddeizquierda.com/" target="_blank">Quiero unirme</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FINAL HERO -->
+
+        <!-- QUIENES SOMOS -->
+         <section class="container-fluid contenedor-qs">
+            <div class="lg:container contenedor-qs-2">
+                <div class="row d-flex align-items-center justify-content-center">
+
+                    <div class="col-12 md:col-8 quienes-somos">
+                        <h4 class="t-beige fs-2xl text-center">Somos un espacio de organización política que busca impulsar la participación, el debate y la 
+                        construcción colectiva en nuestro territorio. Formamos parte de un proyecto orientado a la construcción del Partido de 
+                        la Nueva Clase Trabajadora.</h4>  
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- BANER GRID (solo como separador, sin contenido semantico) -->
+        <section class="container-fluid grid-banner">
+            <div class="caja caja1"></div>
+            <div class="caja caja2"></div>
+            <div class="caja caja3"></div>
+            <div class="caja caja4 display-none d-sm-block"></div>
+            <div class="caja caja5 display-none d-sm-block"></div>
+            <div class="caja caja6 display-none d-lg-block"></div>
+            <div class="caja caja7 display-none d-lg-block"></div>
+            <div class="caja caja8 display-none d-lg-block"></div>
+            <div class="caja caja9 display-none d-lg-block"></div>
+            <div class="caja caja10 display-none d-lg-block"></div>
+            <div class="caja caja11 display-none d-lg-block"></div>
+            <div class="caja caja12 display-none d-lg-block"></div>
+            <div class="caja caja13 display-none d-lg-block"></div>
+        </section>
+           
+        <section class="container-fluid relleno bg-4">
+            <div class="lg:container"></div>
+        </section>
+    </main>
+
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>    
+</body>
+</html>

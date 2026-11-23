@@ -1,0 +1,46 @@
+.hero{
+    height: 90vh;
+    background-image: url(../assets/images/pts-comite-edit-2.jpeg);
+    background-size: cover;
+    background-position: top ;
+    padding: 0px;
+}
+
+.capa-sombra{
+    height: 100%;
+    box-shadow: inset 40vw 0px 500px rgba(0, 0, 0, 0.6);
+}
+
+.contenido-hero, .contenido-hero > .row{
+    height: 100%;
+}
+
+.titulo-hero >h2 {
+    font-size: clamp(3.75rem, 2.5rem + 6.25vw, 9rem);
+    line-height: 1;
+}
+
+.unite h4, .unite p{
+    margin-bottom: 30px;
+}
+
+
+/* quienes somos */
+.contenedor-qs{
+    background-color: var(--color-negro);
+    height: 80vh;
+    padding: 2rem 0;
+}
+
+
+
+
+
+.relleno{
+    width: 100%;
+    height: 100vh;
+}
+
+.borde{
+    border: 1px dotted yellow;
+}
