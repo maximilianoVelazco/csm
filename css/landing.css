@@ -28,8 +28,6 @@
 
 /* quienes somos */
 .contenedor-qs{
-    background-color: var(--color-negro);
-    height: 80vh;
     padding: 2rem 0;
 }
 
