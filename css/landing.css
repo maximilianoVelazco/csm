@@ -13,10 +13,6 @@
     align-items: center;
 }
 
-.contenido-hero, .contenido-hero > .row{
-    height: 100%;
-}
-
 .titulo-hero{
     margin-bottom: 3rem;
 }
@@ -29,7 +25,6 @@
 .unite h4, .unite p{
     margin-bottom: 30px;
 }
-
 
 /* quienes somos */
 .contenedor-qs{
@@ -48,12 +43,10 @@
     border: 1px dotted yellow;
 }
 
-
 @media screen and (min-width: 992px) {
 
     .contenido-hero > .row{
         display: flex;
         align-items: flex-start;
-        /* justify-content: flex-start; */
     }
 }
