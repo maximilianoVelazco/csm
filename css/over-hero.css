@@ -1,4 +1,3 @@
-/* .over-hero{
-    width: 100%;
-    min-height: 100hv;
-} */
+.over-hero p{
+    color: var(--color-beige);
+}
