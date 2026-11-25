@@ -1,3 +1,3 @@
-.over-hero p{
+.over-hero > p{
     color: var(--color-beige);
 }
