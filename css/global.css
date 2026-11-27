@@ -2,8 +2,10 @@
     /* Colores */
     --color-negro: #171717;
     --color-blanco: #FFFFFF;
-    --color-beige: #FAEFD3; 
-    --color-rojo: #AE1017;    
+    --color-beige: #F6E8DD;  
+    --color-rojo: #AE1017;   
+    --color-azul: #193564;   
+    --color-naranja: #F4563B; 
 }
 
 *{
