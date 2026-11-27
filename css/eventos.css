@@ -2,59 +2,15 @@
 /* =================================
    AGENDA Y CALENDARIO
 ================================= */
+.contenedor-principal{
+    background-color: var(--color-beige);
+}
+
+
 
 .pagina-agenda {
     padding-top: 55px;
     padding-bottom: 70px;
-}
-
-/* CATEGORÍAS */
-
-.categorias-eventos {
-    margin-bottom: 45px;
-}
-
-.categorias-eventos h2 {
-    font-family: var(--fuente-titulos);
-    font-size: 18px;
-    border-bottom: 3px solid var(--color-negro);
-    padding-bottom: 12px;
-    margin-bottom: 20px;
-}
-
-.lista-categorias {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.categoria {
-    display: inline-block;
-    padding: 10px 14px;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    border-left: 4px solid;
-}
-
-.categoria-reuniones {
-    background: #eeeeee;
-    border-color: #171717;
-}
-
-.categoria-institucional {
-    background: #fbe5e5;
-    border-color: #D92727;
-}
-
-.categoria-eventos {
-    background: #e5e5e5;
-    border-color: #666666;
-}
-
-.categoria-fechas {
-    background: #fff0d8;
-    border-color: #c58b28;
 }
 
 /* CONTENEDOR DEL CALENDARIO */
@@ -76,7 +32,6 @@
 }
 
 .calendario-navegacion h3 {
-    font-family: var(--fuente-titulos);
     font-size: 21px;
     text-align: center;
     text-transform: uppercase;
@@ -160,7 +115,6 @@
 }
 
 .encabezado-listado h2 {
-    font-family: var(--fuente-titulos);
     font-size: 22px;
 }
 
