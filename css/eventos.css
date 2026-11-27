@@ -60,29 +60,8 @@
 /* CONTENEDOR DEL CALENDARIO */
 
 .calendario-contenedor {
-    border: 2px solid var(--color-negro);
+    /* border: 2px solid var(--color-negro); */
     margin-bottom: 65px;
-}
-
-.calendario-cabecera {
-    background: var(--color-negro);
-    color: white;
-    padding: 22px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-}
-
-.calendario-cabecera h2 {
-    font-family: var(--fuente-titulos);
-    font-size: 20px;
-}
-
-.calendario-cabecera p {
-    font-size: 10px;
-    font-weight: 800;
-    color: #cccccc;
 }
 
 /* NAVEGACIÓN MENSUAL */
@@ -124,6 +103,7 @@
 .calendario-grilla {
     display: grid;
     grid-template-columns: repeat(7, minmax(0, 1fr));
+    border: 1px solid red;
 }
 
 .dia-semana {
