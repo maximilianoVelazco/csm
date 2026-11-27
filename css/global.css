@@ -27,9 +27,6 @@ h2, h3{
 h4, h5{
     font-weight: 600;
 }
-p{
-    font-weight: 400;
-}
 
 /* componente */
 .boton-dark{
@@ -41,7 +38,6 @@ p{
     padding: 8px 30px;
     color: var(--color-beige);
 }
-
 
 /*barra de navegacion*/
 header{padding: 0px;}
