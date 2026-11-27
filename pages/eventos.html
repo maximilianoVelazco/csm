@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>csm.</title>
+
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="../css/global.css"> -->
+    <link rel="stylesheet" href="../css/eventos.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header class="navbar md:navbar-expand">
+        <nav class="lg:container">
+            <a class="navbar-brand csm" href="#">CSM.</a>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarLeftDrawer" aria-controls="navbarLeftDrawer" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon toggler-color" aria-hidden="true"></span>
+            </button>
+            <dialog class="drawer drawer-start" tabindex="-1" id="navbarLeftDrawer" aria-labelledby="navbarLeftDrawerLabel">
+                <div class="drawer-header">
+                    <h5 class="drawer-title" id="navbarLeftDrawerLabel">CSM.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                </div>
+                <div class="drawer-body">
+                    <ul class="navbar-nav align-items-center justify-content-start fs-lg">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active"  aria-current="page" href="#">Agenda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Articulos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://wa.me/5491166186879?text=¡Estoy+interesado+en+los+comités!" rel="noopener noreferrer" target="_blank">Contacto</a></li> 
+                        </a></li>
+                        <li class="nav-item container justify-content-center boton-nav">
+                            <a class="nav-link" href="#">Ingresar</a>
+                        </li>
+                    </ul>
+                </div>
+            </dialog>
+        </nav>
+    </header>
+
+    <main class="contenedor pagina-agenda">
+
+        <section class="titulo-seccion">
+            <span class="etiqueta">ACTIVIDADES</span>
+            <h2>AGENDA</h2>
+            <p>
+                Consultá las próximas reuniones, actividades
+                institucionales, eventos y fechas importantes.
+            </p>
+        </section>
+
+        <section class="categorias-eventos">
+
+            <h2>CATEGORÍAS</h2>
+
+            <div class="lista-categorias">
+                <span class="categoria categoria-reuniones">
+                    REUNIONES
+                </span>
+
+                <span class="categoria categoria-institucional">
+                    ACTIVIDADES INSTITUCIONALES
+                </span>
+
+                <span class="categoria categoria-eventos">
+                    EVENTOS
+                </span>
+
+                <span class="categoria categoria-fechas">
+                    FECHAS IMPORTANTES
+                </span>
+            </div>
+
+        </section>
+
+        <section class="calendario-contenedor">
+
+            <div class="calendario-cabecera">
+                <h2>CALENDARIO DE ACTIVIDADES</h2>
+                <p>CONSULTA PÚBLICA</p>
+            </div>
+
+            <div class="calendario-navegacion">
+                <button type="button" id="mes-anterior">
+                    ← ANTERIOR
+                </button>
+
+                <h3 id="mes-actual">MES Y AÑO</h3>
+
+                <button type="button" id="mes-siguiente">
+                    SIGUIENTE →
+                </button>
+            </div>
+
+            <div class="calendario-grilla" id="calendario">
+
+                <div class="dia-semana">LUN</div>
+                <div class="dia-semana">MAR</div>
+                <div class="dia-semana">MIÉ</div>
+                <div class="dia-semana">JUE</div>
+                <div class="dia-semana">VIE</div>
+                <div class="dia-semana">SÁB</div>
+                <div class="dia-semana">DOM</div>
+
+            </div>
+
+        </section>
+
+        <section class="proximas-actividades">
+
+            <div class="encabezado-listado">
+                <h2>PRÓXIMAS ACTIVIDADES</h2>
+                <span>AGENDA PÚBLICA</span>
+            </div>
+
+            <div id="lista-eventos">
+
+                <div class="sin-eventos">
+                    <p>
+                        Todavía no hay actividades publicadas.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <p>COMITÉ SAN MIGUEL</p>
+            <span>ORGANIZACIÓN · SAN MIGUEL · BUENOS AIRES</span>
+        </div>
+    </footer>
+
+    <script src="../js/eventos.js"></script>
+
+</body>
+</html>
