@@ -6,8 +6,6 @@
     background-color: var(--color-beige);
 }
 
-
-
 .pagina-agenda {
     padding-top: 55px;
     padding-bottom: 70px;
@@ -62,7 +60,6 @@
 }
 
 .dia-semana {
-    background: #eeeeee;
     padding: 14px 5px;
     text-align: center;
     font-size: 11px;
