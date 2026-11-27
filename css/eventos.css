@@ -79,7 +79,7 @@
 }
 
 .dia-calendario:nth-child(7n) {
-    border: none;
+    /* border: none; */
 }
 
 .dia-calendario.otro-mes {
